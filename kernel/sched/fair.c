@@ -2651,7 +2651,6 @@ int core_ctl_set_boost(bool boost)
 }
 EXPORT_SYMBOL(core_ctl_set_boost);
 
-#ifdef CONFIG_SMP
 u32 sched_get_wake_up_idle(struct task_struct *p)
 {
 	u32 enabled = p->flags & PF_WAKE_UP_IDLE;
