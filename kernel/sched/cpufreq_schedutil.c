@@ -15,6 +15,8 @@
 #include <linux/kthread.h>
 #include <linux/slab.h>
 #include <trace/events/power.h>
+#include <linux/binfmts.h>
+
 
 #include "sched.h"
 #include "tune.h"
